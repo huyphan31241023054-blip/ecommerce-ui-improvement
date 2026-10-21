@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Tiệm Sách Nhỏ — trang thực hành giao diện bán sách bằng HTML và CSS."
+  >
+  <title>Tiệm Sách Nhỏ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container navigation">
+      <a class="logo" href="#">Tiệm Sách Nhỏ</a>
+
+      <nav aria-label="Điều hướng chính">
+        <a href="#">Trang chủ</a>
+        <a href="#san-pham">Sách nổi bật</a>
+        <a href="#gioi-thieu">Giới thiệu</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="banner">
+      <p>MỖI NGÀY MỘT TRANG SÁCH</p>
+
+      <h1>
+        Chọn một cuốn sách,<br>
+        mở thêm một góc nhìn.
+      </h1>
+
+      <p>
+        Khám phá những cuốn sách dành cho thời gian của bạn.
+      </p>
+
+      <a class="button" href="#san-pham">
+        Khám phá sách
+      </a>
+    </section>
+
+    <section id="san-pham">
+      <h2>Sách nổi bật</h2>
+
+      <p class="section-description">
+        Bốn gợi ý cho tủ sách của bạn. Giá dưới đây dùng để minh họa.
+      </p>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img
+            src="images/dac-nhan-tam.svg"
+            alt="Bìa minh họa sách Đắc Nhân Tâm"
+            width="600"
+            height="800"
+          >
+
+          <div class="product-info">
+            <p class="author">Dale Carnegie</p>
+            <h3>Đắc Nhân Tâm</h3>
+            <p class="price">86.000đ</p>
+
+            <a
+              class="button"
+              href="https://tiki.vn/search?q=%C4%90%E1%BA%AFc%20Nh%C3%A2n%20T%C3%A2m"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Tìm Đắc Nhân Tâm trên Tiki, mở trong tab mới"
+            >
+              Xem trên Tiki
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img
+            src="images/nha-gia-kim.svg"
+            alt="Bìa minh họa sách Nhà Giả Kim"
+            width="600"
+            height="800"
+            loading="lazy"
+          >
+
+          <div class="product-info">
+            <p class="author">Paulo Coelho</p>
+            <h3>Nhà Giả Kim</h3>
+            <p class="price">79.000đ</p>
+
+            <a
+              class="button"
+              href="https://tiki.vn/search?q=Nh%C3%A0%20Gi%E1%BA%A3%20Kim"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Tìm Nhà Giả Kim trên Tiki, mở trong tab mới"
+            >
+              Xem trên Tiki
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img
+            src="images/tuoi-tre.svg"
+            alt="Bìa minh họa sách Tuổi Trẻ Đáng Giá Bao Nhiêu"
+            width="600"
+            height="800"
+            loading="lazy"
+          >
+
+          <div class="product-info">
+            <p class="author">Rosie Nguyễn</p>
+            <h3>Tuổi Trẻ Đáng Giá Bao Nhiêu?</h3>
+            <p class="price">90.000đ</p>
+
+            <a
+              class="button"
+              href="https://tiki.vn/search?q=Tu%E1%BB%95i%20Tr%E1%BA%BB%20%C4%90%C3%A1ng%20Gi%C3%A1%20Bao%20Nhi%C3%AAu"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Tìm Tuổi Trẻ Đáng Giá Bao Nhiêu trên Tiki, mở trong tab mới"
+            >
+              Xem trên Tiki
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img
+            src="images/cay-cam-ngot.svg"
+            alt="Bìa minh họa sách Cây Cam Ngọt Của Tôi"
+            width="600"
+            height="800"
+            loading="lazy"
+          >
+
+          <div class="product-info">
+            <p class="author">José Mauro de Vasconcelos</p>
+            <h3>Cây Cam Ngọt Của Tôi</h3>
+            <p class="price">108.000đ</p>
+
+            <a
+              class="button"
+              href="https://tiki.vn/search?q=C%C3%A2y%20Cam%20Ng%E1%BB%8Dt%20C%E1%BB%A7a%20T%C3%B4i"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Tìm Cây Cam Ngọt Của Tôi trên Tiki, mở trong tab mới"
+            >
+              Xem trên Tiki
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="gioi-thieu" class="about">
+      <h2>Về Tiệm Sách Nhỏ</h2>
+
+      <p>
+        Tiệm Sách Nhỏ là trang web thực hành HTML và CSS,
+        lấy cảm hứng từ phần khảo sát danh mục sách trên Tiki.
+      </p>
+
+      <p>
+        Trang giới thiệu bốn cuốn sách với ảnh minh họa,
+        tên tác giả, giá và liên kết tìm kiếm sản phẩm.
+        Bố cục được thiết kế để thích ứng với màn hình
+        máy tính và điện thoại.
+      </p>
+
+      <p>
+        Các ảnh bìa được tạo để minh họa, không phải bìa chính thức.
+        Giá hiển thị là dữ liệu mẫu, không phải báo giá hiện tại.
+        Đây là bài tập và không phải website chính thức của Tiki.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tiệm Sách Nhỏ · Bài tập thiết kế website</p>
+  </footer>
+</body>
+</html>

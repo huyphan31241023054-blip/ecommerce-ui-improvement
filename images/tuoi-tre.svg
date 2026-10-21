@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Tuổi Trẻ Đáng Giá Bao Nhiêu?</title><desc id="desc">Bìa sách minh họa, không phải bìa chính thức.</desc>
+<rect width="600" height="800" fill="#244f46"/><rect x="25" width="9" height="800" fill="#193c35"/>
+<text x="300" y="105" fill="#dbe5bd" font-family="Georgia,serif" font-size="24" letter-spacing="4" text-anchor="middle">ROSIE NGUYỄN</text>
+<g fill="#fff4d9" font-family="Arial,sans-serif" font-weight="bold" font-size="65" text-anchor="middle"><text x="300" y="240">TUỔI TRẺ</text><text x="300" y="320">ĐÁNG GIÁ</text><text x="300" y="400">BAO NHIÊU?</text></g>
+<circle cx="428" cy="520" r="53" fill="#e7bd72"/>
+<path d="M70 680Q180 510 300 600T550 580" fill="none" stroke="#729b83" stroke-width="55"/>
+<path d="M245 700Q320 610 285 570T300 490" fill="none" stroke="#f0d9a6" stroke-width="5" stroke-linecap="round"/>
+<path d="m285 502 15-12 6 21" fill="none" stroke="#f0d9a6" stroke-width="5" stroke-linecap="round"/>
+<text x="300" y="755" fill="#dbe5bd" font-family="Arial,sans-serif" font-size="17" letter-spacing="3" text-anchor="middle">TIỆM SÁCH NHỎ · BÌA MINH HỌA</text>
+</svg>

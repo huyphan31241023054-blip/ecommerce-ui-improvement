@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Đắc Nhân Tâm</title><desc id="desc">Bìa sách minh họa, không phải bìa chính thức.</desc>
+<rect width="600" height="800" fill="#863c32"/><rect x="25" width="9" height="800" fill="#692c25"/>
+<rect x="60" y="55" width="480" height="690" rx="2" fill="none" stroke="#edcf9d" stroke-width="2"/>
+<text x="300" y="115" fill="#f3dbb6" font-family="Georgia,serif" font-size="23" letter-spacing="4" text-anchor="middle">DALE CARNEGIE</text>
+<text x="300" y="260" fill="#fff3db" font-family="Georgia,serif" font-size="82" text-anchor="middle">ĐẮC</text>
+<text x="300" y="355" fill="#fff3db" font-family="Georgia,serif" font-size="82" text-anchor="middle">NHÂN TÂM</text>
+<path d="M200 515c0-80 200-80 200 0s-200 80-200 0" fill="none" stroke="#d8b77e" stroke-width="3"/>
+<circle cx="255" cy="510" r="32" fill="#d8b77e"/><circle cx="345" cy="510" r="32" fill="#f5dec0"/>
+<path d="M190 610c0-70 130-70 130 0M280 610c0-70 130-70 130 0" fill="none" stroke="#f5dec0" stroke-width="5"/>
+<text x="300" y="700" fill="#edcf9d" font-family="Arial,sans-serif" font-size="17" letter-spacing="3" text-anchor="middle">TIỆM SÁCH NHỎ · BÌA MINH HỌA</text>
+</svg>

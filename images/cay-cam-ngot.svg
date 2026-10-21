@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Cây Cam Ngọt Của Tôi</title><desc id="desc">Bìa sách minh họa, không phải bìa chính thức.</desc>
+<rect width="600" height="800" fill="#f5e4c9"/><rect x="25" width="9" height="800" fill="#ddc4a3"/>
+<text x="300" y="90" fill="#575a3b" font-family="Georgia,serif" font-size="20" text-anchor="middle">JOSÉ MAURO DE VASCONCELOS</text>
+<g fill="#354d3c" font-family="Georgia,serif" font-size="64" text-anchor="middle"><text x="300" y="210">CÂY CAM NGỌT</text><text x="300" y="290">CỦA TÔI</text></g>
+<path d="M301 670V430m0 140-100-90m100 50 100-70" stroke="#77613f" stroke-width="15" fill="none" stroke-linecap="round"/>
+<g fill="#73916a"><ellipse cx="210" cy="435" rx="90" ry="70"/><ellipse cx="300" cy="400" rx="95" ry="80"/><ellipse cx="390" cy="440" rx="95" ry="73"/></g>
+<g fill="#dc8135"><circle cx="205" cy="445" r="26"/><circle cx="300" cy="390" r="27"/><circle cx="392" cy="450" r="28"/><circle cx="303" cy="478" r="24"/></g>
+<path d="M115 680q185-45 370 0" fill="none" stroke="#a4b292" stroke-width="4"/>
+<text x="300" y="755" fill="#575a3b" font-family="Arial,sans-serif" font-size="17" letter-spacing="3" text-anchor="middle">TIỆM SÁCH NHỎ · BÌA MINH HỌA</text>
+</svg>

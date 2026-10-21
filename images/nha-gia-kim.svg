@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Nhà Giả Kim</title><desc id="desc">Bìa sách minh họa, không phải bìa chính thức.</desc>
+<rect width="600" height="800" fill="#ecddba"/><rect x="25" width="9" height="800" fill="#cfb88d"/>
+<text x="300" y="110" fill="#72532f" font-family="Georgia,serif" font-size="24" letter-spacing="4" text-anchor="middle">PAULO COELHO</text>
+<text x="300" y="255" fill="#453e31" font-family="Georgia,serif" font-size="74" text-anchor="middle">NHÀ GIẢ KIM</text>
+<circle cx="300" cy="420" r="90" fill="#c78643"/>
+<path d="M0 590Q160 440 320 580T600 530V800H0" fill="#ba8558"/>
+<path d="M0 650Q170 535 340 660T600 620V800H0" fill="#845d42"/>
+<path d="M0 735Q200 650 400 720T600 720V800H0" fill="#4d4c3d"/>
+<path d="M280 615q20-15 40 0l-5 50h-30z" fill="#343a30"/><circle cx="300" cy="598" r="13" fill="#343a30"/>
+<text x="300" y="765" fill="#f4e9d0" font-family="Arial,sans-serif" font-size="17" letter-spacing="3" text-anchor="middle">TIỆM SÁCH NHỎ · BÌA MINH HỌA</text>
+</svg>
