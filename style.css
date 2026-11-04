@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, sans-serif; color: #23312f; background: #f6f8f5; line-height: 1.6; }
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+.container { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+header { background: #fff; border-bottom: 1px solid #dce6df; }
+.navigation { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-block: 18px; }
+.logo { color: #235640; font-size: 1.3rem; font-weight: 700; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 20px; }
+nav a { text-decoration: none; font-weight: 600; }
+nav a:hover { color: #17704b; }
+.banner { margin: 32px 0 56px; padding: clamp(28px, 6vw, 68px); border-radius: 20px; background: #e0efe3; }
+.banner > p:first-child { color: #286347; font-size: .8rem; font-weight: 700; letter-spacing: .12em; }
+h1 { margin: 12px 0; font-size: clamp(2rem, 4.5vw, 3.5rem); line-height: 1.15; }
+h2 { margin-bottom: 4px; font-size: 1.8rem; }
+.section-description { margin-top: 0; color: #56675d; }
+.product-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.product-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; border: 1px solid #dce6df; border-radius: 12px; background: #fff; }
+.product-card img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.product-info { display: flex; flex: 1; flex-direction: column; padding: 16px; }
+.product-info h3 { margin: 2px 0 12px; font-size: 1.05rem; line-height: 1.35; }
+.author { margin: 0; color: #53675b; font-size: .875rem; }
+.price { margin: auto 0 14px; color: #a3352e; font-size: 1.1rem; font-weight: 700; }
+.button { display: inline-block; padding: 10px 16px; border-radius: 7px; background: #246344; color: #fff; font-weight: 700; text-align: center; text-decoration: none; transition: background-color .2s ease; }
+.button:hover { background: #16472f; }
+a:focus-visible { outline: 3px solid #bc6900; outline-offset: 3px; }
+.about { margin: 64px 0; padding: 28px; border: 1px solid #dce6df; border-radius: 12px; background: #fff; }
+footer { padding: 20px; background: #233e31; color: #fff; text-align: center; }
+footer p { margin: 0; }
+@media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .navigation { align-items: flex-start; flex-direction: column; gap: 12px; } nav { gap: 8px 16px; } .product-grid { grid-template-columns: 1fr; } .banner { margin-top: 20px; } }

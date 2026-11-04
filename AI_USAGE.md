@@ -73,3 +73,18 @@ Chỉ đánh dấu hoặc ghi hoàn tất khi đã thực sự thực hiện. Vi
 - Flexbox trong product-info giúp sắp xếp thông tin và vị trí liên kết trong thẻ.
 - Thẻ a có href dẫn đến trang tìm kiếm; đây không phải chức năng thêm giỏ hay mua hàng thật.
 - Việc sửa src của ảnh là thay tài nguyên hiển thị, không thay đổi bố cục CSS hoặc bổ sung backend.
+
+
+## Buổi 2 — Hỗ trợ cải thiện giao diện
+
+### Nội dung yêu cầu AI (diễn đạt lại)
+
+Kiểm tra mã HTML và CSS của website giới thiệu sách từ Buổi 1; xác định các vấn đề cần cải thiện và hỗ trợ định dạng khu vực sách nổi bật, menu điều hướng bằng HTML5 và CSS cơ bản. Thực hành CSS selector, Box Model, Flexbox và Grid trên nội dung hiện có, đồng thời giải thích thuộc tính và cách kiểm tra giao diện.
+
+### Kết quả hỗ trợ
+
+AI phát hiện tệp style.css của bản được cung cấp đang rỗng và bổ sung các quy tắc định dạng. Danh sách sách được bố trí bằng Grid, menu được căn chỉnh bằng Flexbox; liên kết có thêm trạng thái hover và focus. AI cũng hỗ trợ chụp ảnh trước–sau và ghi nhận kết quả kiểm thử.
+
+### Kiểm tra và điều chỉnh
+
+Giao diện được AI kiểm tra ở chiều rộng 1366 px, 768 px và 390 px; bốn ảnh sách tải được. Cần tiếp tục kiểm tra liên kết, hiệu ứng bằng chuột và bàn phím, và ghi lại thay đổi tự thực hiện theo yêu cầu của bài tập.
