@@ -1,0 +1,6 @@
+* { box-sizing:border-box; }
+body { margin:0; color:#24333e; background:#fff; font-family:Arial,sans-serif; line-height:1.6; }
+.lesson-nav { padding:14px 24px; background:#18394a; color:#fff; font:14px/1.6 Arial,sans-serif; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+.lesson-nav a { color:#fff; text-underline-offset:4px; }
+.lesson-nav span { opacity:.8; }
+a:focus-visible { outline:3px solid #c66c30; outline-offset:4px; }

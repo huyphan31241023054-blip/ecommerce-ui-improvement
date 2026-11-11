@@ -1,0 +1,4 @@
+.wrapper-label { width:min(360px,calc(100% - 48px)); margin:35px auto 2px; color:#111; font-size:21px; }
+#wrapper { display:grid; grid-template-columns:60px minmax(0,1fr); grid-template-rows:56px 260px 40px; grid-template-areas:'header header' 'nav main' 'footer footer'; gap:7px; width:min(360px,calc(100% - 48px)); margin:0 auto 50px; padding:8px; border:3px solid #111; box-shadow:-18px 18px 12px #b6b6b6; background:#fff; color:#111; font:21px/1.5 Arial,sans-serif; }
+#wrapper > * { border:3px solid #111; padding:5px; }
+#wrapper header { grid-area:header; }#wrapper nav { grid-area:nav; }#wrapper main { grid-area:main; }#wrapper footer { grid-area:footer; }

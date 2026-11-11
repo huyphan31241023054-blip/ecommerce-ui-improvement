@@ -1,0 +1,9 @@
+.best-shared { max-width:1100px; margin:70px auto 55px; padding:0 20px; text-align:center; }
+.best-shared .logo { margin:0 0 24px; }.best-shared .logo img { width:200px; max-width:100%; height:auto; }
+.best-shared h2 { margin:0 0 22px; color:#333; font-size:36px; font-weight:normal; line-height:1.4; }
+.best-shared h2 strong { color:#00aeef; font-weight:bold; }
+.lead-text { color:#333; margin-bottom:32px; font-size:15px; }
+.btn-list { list-style:none; padding:0; margin:0; }.btn-list li { display:inline-block; margin:4px 10px; }
+.btn-list a { display:inline-block; width:145px; padding:16px 12px; background:#2d3032; color:white; border-radius:3px; text-decoration:none; font-size:14px; }
+.btn-list a:hover { background:#43494d; }.hosting-details { max-width:960px; padding:20px; margin:auto; color:#52616b; border-top:1px solid #ddd; }.hosting-details h2 { font-size:19px; }
+@media(max-width:600px) { .best-shared { margin-top:40px; }.best-shared h2 { font-size:28px; } }

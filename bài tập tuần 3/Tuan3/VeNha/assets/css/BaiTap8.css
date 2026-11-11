@@ -1,0 +1,13 @@
+/* Khung 960px theo yêu cầu 8a; co lại trên màn hình nhỏ. */
+#root { width:960px; max-width:calc(100% - 32px); margin:40px auto; background:#ccc; padding:20px 20px 80px; font:16px/1.2 'Times New Roman',serif; color:#111; }
+#root .header { margin:12px 0 22px; text-align:center; font-size:30px; }
+#root > .description { margin:0 24px 45px; padding:24px 45px; border:3px solid white; border-radius:16px; background:gray; }
+#root .remark { text-align:center; margin-bottom:30px; }
+.heroes-list { list-style:none; padding:0; margin:0; font-size:0; }
+.hero-item { display:inline-block; position:relative; width:25%; padding:0 3px; vertical-align:top; font-size:16px; }
+.hero-item h2 { margin:0 0 15px; font-size:20px; text-align:center; line-height:1.3; }
+/* Các mô tả nằm trên ảnh, z-index quyết định lớp hiển thị. */
+.hero-item .description { position:relative; z-index:2; margin:0; padding:14px; height:235px; background:rgba(110,110,110,.84); border:3px solid white; border-radius:4px; text-align:justify; }
+.hero-item img { position:relative; z-index:1; display:block; width:100%; height:200px; margin-top:-80px; border:1px solid #ddd; border-radius:24px; object-fit:cover; }
+@media(max-width:800px) { .hero-item { width:50%; margin-bottom:35px; }#root > .description { margin:0 5px 30px; padding:20px; } }
+@media(max-width:460px) { .hero-item { width:100%; }.hero-item .description { height:190px; }#root .header { font-size:25px; } }

@@ -1,0 +1,20 @@
+/* d. Nền 30px, lặp và cố định theo khung nhìn. */
+body { background-image:url('../images/BIT-logo.png'); background-size:30px 30px; background-repeat:repeat; background-attachment:fixed; }
+.typography { width:min(960px,calc(100% - 32px)); margin:35px auto; }
+.typography > h1 { background:white; padding:20px; border:1px solid #ccd5dc; font-size:26px; }
+.typography section { background:rgba(255,255,255,.96); border:1px solid #ccd5dc; border-radius:8px; padding:26px; margin:24px 0; }
+.typography h2 { font-size:19px; }
+/* a. Mỗi thuộc tính ứng với một yêu cầu của đề. */
+.ueh { color:blue; text-align:center; font-weight:bold; text-decoration:underline; font-size:30px; }
+/* b. opacity làm cả đoạn, nền và viền mờ 50%. */
+.khoa { color:red; text-align:right; font-style:italic; border:3px dotted yellow; border-radius:12px; background:gray; font-size:15px; opacity:.5; padding:18px; }
+/* c. Chồng nhiều lớp bóng đỏ và vàng-xanh để gần hình mẫu. */
+.bit-shadow { display:inline-block; margin:10px 0; padding:20px 30px; color:#9fca22; font-size:46px; font-weight:bold; background:#f0f4de; text-shadow:3px 0 0 #b40000,7px 0 5px #b40000,0 0 15px #a2bd25,0 0 24px #99b21b; }
+.overflow-examples { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }.overflow-examples article { min-width:0; }
+.overflow-examples h3 { font-size:15px; min-height:48px; }
+/* Giữ content-box để vùng nội dung thực sự là 100 × 50 px. */
+.box { box-sizing:content-box; width:100px; height:50px; margin:12px 0; border:2px solid #315d74; background:#eaf3f8; font-size:14px; line-height:20px; }
+.hidden { overflow:hidden; }.ellipsis { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }.nowrap { white-space:nowrap; }
+.nowrap-frame { overflow-x:auto; overflow-y:hidden; max-width:100%; padding-bottom:12px; }
+.explanation { margin-top:30px; }
+@media(max-width:650px) { .overflow-examples { grid-template-columns:1fr; }.typography section { padding:18px; }.bit-shadow { font-size:36px; padding:16px; } }

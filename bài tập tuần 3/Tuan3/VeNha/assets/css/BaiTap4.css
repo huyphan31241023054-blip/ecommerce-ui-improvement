@@ -1,0 +1,7 @@
+.menu-demo { max-width:960px; margin:45px auto; padding:0 20px; }
+.menu-demo h1 { font-size:26px; }
+.major-menu { padding:0; margin:28px 0 48px; list-style:none; }
+.major-menu li { display:inline-block; width:150px; margin:3px 2px; background:cyan; text-align:center; }
+.major-menu a { display:block; color:blue; text-decoration:underline; font:28px/1.4 'Times New Roman',serif; }
+.major-menu a:hover { background:#a2ffff; }
+.menu-demo section { border-bottom:1px solid #ddd; padding:10px 0; }.menu-demo h2 { font-size:18px; }

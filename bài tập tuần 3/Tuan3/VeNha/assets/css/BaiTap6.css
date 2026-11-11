@@ -1,0 +1,9 @@
+.portfolio { max-width:1100px; margin:50px auto; padding:28px 20px 20px; background:#f7f7f7; text-align:center; }
+.portfolio h1 { font-size:26px; margin:0 0 24px; line-height:1.4; }
+.portfolio h1::after { content:''; display:block; width:65px; height:3px; background:#24b8b5; margin:15px auto 0; }
+.list-tab { padding:0; margin:0 0 30px; list-style:none; }.list-tab li { display:inline-block; margin:5px 12px; }
+.list-tab a { text-decoration:none; color:#222; font-size:14px; font-weight:bold; }.list-tab a.active,.list-tab a:hover { color:#0a9297; }
+.galerry { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:25px; list-style:none; margin:0; padding:0; }
+.galerry img { display:block; width:100%; height:auto; }.galerry a { display:block; }
+@media(max-width:720px) { .galerry { grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px; } }
+@media(max-width:440px) { .galerry { grid-template-columns:1fr; } }
