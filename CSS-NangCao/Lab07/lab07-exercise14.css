@@ -1,0 +1,17 @@
+figure {
+    margin: 2em;
+    padding: 1em;
+    background: #FFCC80;
+    width: 200px;
+    transform: rotate(15deg);
+}
+
+figure img {
+    transform: rotate(45deg) scale(0.5);
+}
+
+figure.rotate { transform: rotate(45deg); }
+figure.skew { transform: skew(-20deg); }
+figure.shift img { transform: translate(100px, -30px); }
+figure.rotate img, figure.skew img { transform: none; }
+main { display: flex; flex-wrap: wrap; gap: 2.5em; padding: 2em; }
