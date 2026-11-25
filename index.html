@@ -1,185 +1,38 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="Tiệm Sách Nhỏ — trang thực hành giao diện bán sách bằng HTML và CSS."
-  >
-  <title>Tiệm Sách Nhỏ</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header>
-    <div class="container navigation">
-      <a class="logo" href="#">Tiệm Sách Nhỏ</a>
-
-      <nav aria-label="Điều hướng chính">
-        <a href="#">Trang chủ</a>
-        <a href="#san-pham">Sách nổi bật</a>
-        <a href="#gioi-thieu">Giới thiệu</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="banner">
-      <p>MỖI NGÀY MỘT TRANG SÁCH</p>
-
-      <h1>
-        Chọn một cuốn sách,<br>
-        mở thêm một góc nhìn.
-      </h1>
-
-      <p>
-        Khám phá những cuốn sách dành cho thời gian của bạn.
-      </p>
-
-      <a class="button" href="#san-pham">
-        Khám phá sách
-      </a>
-    </section>
-
-    <section id="san-pham">
-      <h2>Sách nổi bật</h2>
-
-      <p class="section-description">
-        Bốn gợi ý cho tủ sách của bạn. Giá dưới đây dùng để minh họa.
-      </p>
-
-      <div class="product-grid">
-        <article class="product-card">
-          <img
-            src="images/dac-nhan-tam.svg"
-            alt="Bìa minh họa sách Đắc Nhân Tâm"
-            width="600"
-            height="800"
-          >
-
-          <div class="product-info">
-            <p class="author">Dale Carnegie</p>
-            <h3>Đắc Nhân Tâm</h3>
-            <p class="price">86.000đ</p>
-
-            <a
-              class="button"
-              href="https://tiki.vn/search?q=%C4%90%E1%BA%AFc%20Nh%C3%A2n%20T%C3%A2m"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Tìm Đắc Nhân Tâm trên Tiki, mở trong tab mới"
-            >
-              Xem trên Tiki
-            </a>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <img
-            src="images/nha-gia-kim.svg"
-            alt="Bìa minh họa sách Nhà Giả Kim"
-            width="600"
-            height="800"
-            loading="lazy"
-          >
-
-          <div class="product-info">
-            <p class="author">Paulo Coelho</p>
-            <h3>Nhà Giả Kim</h3>
-            <p class="price">79.000đ</p>
-
-            <a
-              class="button"
-              href="https://tiki.vn/search?q=Nh%C3%A0%20Gi%E1%BA%A3%20Kim"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Tìm Nhà Giả Kim trên Tiki, mở trong tab mới"
-            >
-              Xem trên Tiki
-            </a>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <img
-            src="images/tuoi-tre.svg"
-            alt="Bìa minh họa sách Tuổi Trẻ Đáng Giá Bao Nhiêu"
-            width="600"
-            height="800"
-            loading="lazy"
-          >
-
-          <div class="product-info">
-            <p class="author">Rosie Nguyễn</p>
-            <h3>Tuổi Trẻ Đáng Giá Bao Nhiêu?</h3>
-            <p class="price">90.000đ</p>
-
-            <a
-              class="button"
-              href="https://tiki.vn/search?q=Tu%E1%BB%95i%20Tr%E1%BA%BB%20%C4%90%C3%A1ng%20Gi%C3%A1%20Bao%20Nhi%C3%AAu"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Tìm Tuổi Trẻ Đáng Giá Bao Nhiêu trên Tiki, mở trong tab mới"
-            >
-              Xem trên Tiki
-            </a>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <img
-            src="images/cay-cam-ngot.svg"
-            alt="Bìa minh họa sách Cây Cam Ngọt Của Tôi"
-            width="600"
-            height="800"
-            loading="lazy"
-          >
-
-          <div class="product-info">
-            <p class="author">José Mauro de Vasconcelos</p>
-            <h3>Cây Cam Ngọt Của Tôi</h3>
-            <p class="price">108.000đ</p>
-
-            <a
-              class="button"
-              href="https://tiki.vn/search?q=C%C3%A2y%20Cam%20Ng%E1%BB%8Dt%20C%E1%BB%A7a%20T%C3%B4i"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Tìm Cây Cam Ngọt Của Tôi trên Tiki, mở trong tab mới"
-            >
-              Xem trên Tiki
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="gioi-thieu" class="about">
-      <h2>Về Tiệm Sách Nhỏ</h2>
-
-      <p>
-        Tiệm Sách Nhỏ là trang web thực hành HTML và CSS,
-        lấy cảm hứng từ phần khảo sát danh mục sách trên Tiki.
-      </p>
-
-      <p>
-        Trang giới thiệu bốn cuốn sách với ảnh minh họa,
-        tên tác giả, giá và liên kết tìm kiếm sản phẩm.
-        Bố cục được thiết kế để thích ứng với màn hình
-        máy tính và điện thoại.
-      </p>
-
-      <p>
-        Các ảnh bìa được tạo để minh họa, không phải bìa chính thức.
-        Giá hiển thị là dữ liệu mẫu, không phải báo giá hiện tại.
-        Đây là bài tập và không phải website chính thức của Tiki.
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Tiệm Sách Nhỏ · Bài tập thiết kế website</p>
-  </footer>
-</body>
-</html>
+<!doctype html>
+<html lang="vi"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phan Nhật Huy · Lab 07 CSS nâng cao</title>
+  <link rel="stylesheet" href="assets/portfolio.css">
+</head><body>
+<header><div class="wrap bar"><a class="brand" href="index.html">Phan Nhật Huy</a>
+<nav aria-label="Điều hướng chính"><a href="#bai-tap">Bài thực hành</a><a href="#tong-ket">Tổng kết</a></nav></div></header>
+<main class="wrap">
+  <section class="intro">
+    <div class="introtext"><p class="kicker">Phát triển ứng dụng TMĐT · Lab 07</p>
+    <h1>CSS nâng cao</h1>
+    <p class="lead">Từ cách chữ chạy quanh một bức ảnh đến cách cả trang đổi bố cục trên điện thoại. Bộ bài thực hành khảo sát vị trí, kích thước và chuyển động của phần tử trên web.</p>
+    <div class="profile"><img src="assets/pnh.png" width="58" height="58" alt="Ảnh đại diện chữ PNH"><div><strong>Phan Nhật Huy</strong><p>MSSV 31241023054 · Lớp EE002</p></div><a href="https://github.com/huyphan31241023054-blip">GitHub ↗</a></div></div>
+    <figure class="cover"><img src="Lab07/images/828-bigger.jpg" alt="Trần kính và mái vòm trong sân Bảo tàng Anh"><figcaption>British Museum · Ảnh từ bộ Lab 07</figcaption></figure>
+  </section>
+  <section id="bai-tap"><h2>19 bài thực hành</h2><article><div><h3>Luồng hiển thị và định vị</h3><p>Thay đổi cách các phần tử chiếm chỗ, chọn mốc định vị và kiểm soát thứ tự chồng lớp.</p></div><ul><li><a href="Lab07/lab07-exercise01.html"><span>7.1</span>Document Flow<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise02.html"><span>7.2</span>Relative Positioning<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise03.html"><span>7.3</span>Absolute Positioning<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise04.html"><span>7.4</span>Stacking Using Z-Index<i aria-hidden="true">↗</i></a></li></ul></article>
+<article><div><h3>Float và clear</h3><p>Cho chữ chạy quanh ảnh, xếp nhiều hình vào cùng hàng và chủ động bắt đầu hàng mới.</p></div><ul><li><a href="Lab07/lab07-exercise05.html"><span>7.5</span>Floating Elements<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise06.html"><span>7.6</span>Floating in a Container<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise07.html"><span>7.7</span>Floating Multiple Items<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise08.html"><span>7.8</span>Floating and Clearing<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise09.html"><span>7.9</span>Using Positioning<i aria-hidden="true">↗</i></a></li></ul></article>
+<article><div><h3>Bố cục và màn hình</h3><p>Dựng hai hoặc ba cột; thay đổi bố cục và kiểu điều hướng khi màn hình thu hẹp.</p></div><ul><li><a href="Lab07/lab07-exercise10.html"><span>7.10</span>Two-Column Layout<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise11.html"><span>7.11</span>Three-Column Layout<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise12.html"><span>7.12</span>Media Queries<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise12.html#navigation"><span>7.13</span>Setting the Viewport<i aria-hidden="true">↗</i></a></li></ul></article>
+<article><div><h3>Biến đổi và chuyển động</h3><p>Xoay, dịch chuyển, lọc màu ảnh và điều khiển chuyển động theo thời gian.</p></div><ul><li><a href="Lab07/lab07-exercise14.html"><span>7.14</span>Transforms<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise15.html"><span>7.15</span>Transitions<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise16.html"><span>7.16</span>More Transitions<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise17.html"><span>7.17</span>Filters<i aria-hidden="true">↗</i></a></li>
+<li><a href="Lab07/lab07-exercise18.html"><span>7.18</span>Animations<i aria-hidden="true">↗</i></a></li></ul></article>
+<article><div><h3>Lưới Bootstrap</h3><p>Lồng hàng và cột trong lưới 12 cột, kết hợp thanh điều hướng, panel và nhóm nút.</p></div><ul><li><a href="Lab07/lab07-exercise19.html"><span>7.19</span>Using Bootstrap<i aria-hidden="true">↗</i></a></li></ul></article></section>
+  <section id="tong-ket"><p class="kicker">Lab 07</p><h2>Tự đánh giá</h2>
+    <p>Trong Lab 07, bài 7.12 và 7.13 hữu ích nhất cho một cửa hàng trực tuyến vì cùng một danh sách điều hướng có thể phục vụ hai kích thước màn hình. Trên máy tính, danh mục nằm cạnh ảnh; trên điện thoại, danh mục chuyển thành ô chọn và ảnh thu theo chiều rộng. Khi đặt nhãn giảm giá lên ảnh sản phẩm, phần tử cha cần có vị trí tương đối để nhãn bám đúng góc. Với thẻ sản phẩm, transition giúp người xem nhận biết thẻ đang được trỏ tới. Lưới Bootstrap phù hợp cho trang danh mục có nhiều mặt hàng. Khi kiểm tra giao diện, cần thử ngay hai phía của ngưỡng chuyển bố cục để phát hiện cột bị tràn hoặc menu bị ẩn sai.</p></section>
+</main></body></html>

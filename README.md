@@ -1,27 +1,29 @@
-# Tiệm Sách Nhỏ — bài tập cá nhân Buổi 2
+# CSS nâng cao · Lab 07
 
-## Giới thiệu
-Tiếp tục giao diện giới thiệu sách từ Buổi 1, tham khảo [Nhà Sách Tiki](https://tiki.vn/nha-sach-tiki/c8322). Khu vực tập trung: bốn thẻ sách nổi bật và menu. Ảnh bìa là minh họa, giá là dữ liệu mẫu; các liên kết dẫn đến kết quả tìm kiếm Tiki. Đây không phải website chính thức của Tiki.
+Phan Nhật Huy · MSSV 31241023054 · Lớp EE002.
 
-## Trước khi cải thiện
-Bản Buổi 1 được cung cấp có file style.css rỗng; vì vậy các quy tắc CSS được mô tả trong README cũ chưa được áp dụng trong bản này.
+Lab 07 khảo sát cách tổ chức nội dung theo luồng tài liệu, tạo bố cục nhiều cột, điều chỉnh giao diện theo màn hình và thêm hiệu ứng CSS. Trang chủ giới thiệu sinh viên, trình bày kỹ năng và liên kết đến từng bài.
 
-| Vấn đề | Hướng cải thiện | Kết quả mong muốn |
-| --- | --- | --- |
-| Chưa có CSS định dạng | Bổ sung style.css đã liên kết | Màu sắc, chữ và khoảng cách rõ ràng |
-| Các thẻ sách nối tiếp theo luồng mặc định | Dùng Grid, border và padding | Các sách có bố cục và ranh giới rõ |
-| Menu và tên cửa hàng chưa được căn chỉnh | Dùng Flexbox và gap | Các thành phần được sắp xếp hợp lý |
+## Mở bài thực hành
 
-## Chạy trang
-Mở index.html trong trình duyệt. style.css và images/ phải ở cùng thư mục với file HTML. Các ảnh SVG có sẵn cục bộ; liên kết Tiki cần Internet.
+Mở tệp `index.html` tại thư mục này và chọn tên exercise. Bài 7.12 và 7.13 dùng chung trang theo tài liệu gốc. Với chiều rộng tối đa 480px trang chuyển sang một cột và hiển thị ô chọn quốc gia. Với chiều rộng từ 481px trang hiển thị hai cột và danh sách liên kết.
 
-## Kỹ thuật và thay đổi
-- Giữ cấu trúc HTML hiện có: header, nav, main, section, article, footer, các tiêu đề theo thứ bậc và thuộc tính alt.
-- Bổ sung CSS riêng với element selector (body), class selector (.product-card) và descendant selector (.product-info h3). Thẻ sách có margin, padding, border và bo góc; dùng box-sizing: border-box.
-- Flexbox căn tên cửa hàng và menu, đồng thời xếp thông tin trong thẻ sách; Grid bố trí 4, 2 hoặc 1 cột tùy chiều rộng. Hình dùng aspect-ratio và object-fit: cover, có thể cắt một phần ảnh để lấp đầy khung.
-- Thêm trạng thái hover và focus-visible cho liên kết. Chưa có chức năng giỏ hàng hay thanh toán.
+- [Repository học phần](https://github.com/huyphan31241023054-blip/ecommerce-ui-improvement)
+- [Địa chỉ GitHub Pages khi triển khai thư mục CSS-NangCao](https://huyphan31241023054-blip.github.io/ecommerce-ui-improvement/CSS-NangCao/)
 
-## Minh chứng và kiểm thử
-Ảnh trước: images/minh-chung/truoc.png; ảnh sau: images/minh-chung/sau.png. Kiểm thử và vấn đề được ghi trong [BAO_CAO_BUOI_2.md](BAO_CAO_BUOI_2.md). Nhật ký sử dụng AI tại [AI_USAGE.md](AI_USAGE.md).
+## Cấu trúc
 
-Repository: https://github.com/huyphan31241023054-blip/ecommerce-ui-improvement
+- `index.html` và `assets/` — trang chủ, stylesheet và ảnh đại diện.
+- `Lab07/lab07-exerciseNN.html` — trang bài tập; tệp CSS cùng số chứa quy tắc tương ứng. Exercise 7.19 dùng Bootstrap.
+- `Lab07/lab07-exercise12-desktop.css` và `Lab07/lab07-exercise12-mobile.css` — hai stylesheet cho exercise 7.12–7.13.
+- `Lab07/bootstrap/` và `Lab07/images/` — bản Bootstrap và tài nguyên ảnh đi kèm giáo trình.
+
+| Exercise | Nội dung |
+| --- | --- |
+| 7.1–7.4 | Display, position và z-index |
+| 7.5–7.9 | Float, clear, chú thích và nhãn chồng ảnh |
+| 7.10–7.13 | Hai/ba cột, media queries và viewport |
+| 7.14–7.18 | Transform, transition, filter và animation |
+| 7.19 | Grid 12 cột, navbar, panel, list-group, jumbotron và button |
+
+Tài liệu tham chiếu và tài nguyên khởi đầu của Randy Connolly và Ricardo Hoar: [Fundamentals of Web Development, 2nd Edition · Chapter 7](https://github.com/funwebdev-2nd-ed/ch07-lab-start).

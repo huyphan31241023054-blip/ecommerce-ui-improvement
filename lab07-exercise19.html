@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>7.19 — Using Bootstrap</title>
+
+   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+  <nav class="navbar navbar-default">
+    <a href="../index.html" class="navbar-brand">Travel Lab</a>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="../index.html">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+  </nav>
+  <div class="row">
+    <aside class="col-md-3">
+      <div class="panel panel-default" id="destinations">
+        <div class="panel-heading"><h2 class="panel-title">Destinations</h2></div>
+        <div class="panel-body"><ul class="list-group">
+          <li class="list-group-item">Austria</li>
+          <li class="list-group-item">Canada</li>
+          <li class="list-group-item">France</li>
+          <li class="list-group-item">Italy</li>
+          <li class="list-group-item">Spain</li>
+        </ul></div>
+      </div>
+    </aside>
+    <main class="col-md-9">
+      <section class="jumbotron">
+        <h1>Share Your Travels</h1>
+        <p>Explore city photographs in a responsive gallery built with Bootstrap’s twelve-column grid.</p>
+      </section>
+      <h2 id="gallery">Nested columns</h2>
+      <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <img class="img-responsive" src="images/464.jpg" alt="London">
+            <h5>London</h5>
+            <a class="btn btn-primary btn-sm" href="images/464.jpg"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> View</a>
+            <button class="btn btn-success btn-sm" type="button" aria-pressed="false" onclick="this.setAttribute('aria-pressed', this.getAttribute('aria-pressed') !== 'true'); this.lastChild.textContent = this.getAttribute('aria-pressed') === 'true' ? ' Added' : ' Cart'"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Cart</button>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img class="img-responsive" src="images/9498358806.jpg" alt="Florence">
+            <h5>Florence</h5>
+            <a class="btn btn-primary btn-sm" href="images/9498358806.jpg"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> View</a>
+            <button class="btn btn-success btn-sm" type="button" aria-pressed="false" onclick="this.setAttribute('aria-pressed', this.getAttribute('aria-pressed') !== 'true'); this.lastChild.textContent = this.getAttribute('aria-pressed') === 'true' ? ' Added' : ' Cart'"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Cart</button>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img class="img-responsive" src="images/9504449928.jpg" alt="Florence">
+            <h5>Florence</h5>
+            <a class="btn btn-primary btn-sm" href="images/9504449928.jpg"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> View</a>
+            <button class="btn btn-success btn-sm" type="button" aria-pressed="false" onclick="this.setAttribute('aria-pressed', this.getAttribute('aria-pressed') !== 'true'); this.lastChild.textContent = this.getAttribute('aria-pressed') === 'true' ? ' Added' : ' Cart'"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Cart</button>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img class="img-responsive" src="images/9494472443.jpg" alt="Venice">
+            <h5>Venice</h5>
+            <a class="btn btn-primary btn-sm" href="images/9494472443.jpg"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> View</a>
+            <button class="btn btn-success btn-sm" type="button" aria-pressed="false" onclick="this.setAttribute('aria-pressed', this.getAttribute('aria-pressed') !== 'true'); this.lastChild.textContent = this.getAttribute('aria-pressed') === 'true' ? ' Added' : ' Cart'"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Cart</button>
+          </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+</body>
+</html>
